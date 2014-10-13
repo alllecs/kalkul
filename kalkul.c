@@ -39,7 +39,8 @@ void main(void)
 					break;
 				case '/':
 					if (b != 0) printf ("%.2f\n", a / b);
-					else printf ("Деление на ноль!\n");
+					else
+					printf ("Деление на ноль!\n");
 			}
 		}
 
