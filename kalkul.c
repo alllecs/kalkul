@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 
-void main(void)
+int main(void)
 {
 	float a, b;
 	char c;
@@ -45,4 +45,5 @@ void main(void)
 		}
 
 	}
+	return 0;
 }
