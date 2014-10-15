@@ -16,7 +16,7 @@ int main(void)
 	char c;
 
 	while (1) {
-		printf ("Оператор (+, -, *, /) : ");
+		printf ("Оператор (+, -, *, /) или 0 для выхода из программы : ");
 		scanf("%c", &c);
 		if (c == '0') {
 			break;
