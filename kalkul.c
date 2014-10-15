@@ -41,9 +41,11 @@ int main(void)
 					if (b != 0) printf ("%.2f\n", a / b);
 					else
 					printf ("Деление на ноль!\n");
+					return 0;
 			}
 		}
 
 	}
+
 	return 0;
 }
