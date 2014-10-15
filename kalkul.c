@@ -15,7 +15,7 @@ int main(void)
 	float a, b;
 	char c;
 
-	while (c != '0') {
+	while (1) {
 		printf ("Оператор (+, -, *, /) : ");
 		scanf("%c", &c);
 		if (c == '0') {
