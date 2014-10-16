@@ -5,7 +5,7 @@ int main(void)
 	float a, b;
 	char c;
 
-	while(1) {
+	while (1) {
 		printf ("Оператор (+, -, *, /) или 0 для выхода из программы : ");
 		scanf("%c", &c);
 		if (c == '0') {
@@ -13,25 +13,25 @@ int main(void)
 		}
 
 		if (c == '+' || c == '-' || c == '*' || c == '/') {
-			printf ("Введите первое число = ");
+			printf("Введите первое число = ");
 			scanf("%f", &a);
-			printf ("Введите второе число = ");
+			printf("Введите второе число = ");
 			scanf("%f", &b);
-			switch(c) {
+			switch (c) {
 				case '+':
-					printf ("%.2f\n", a + b);
+					printf("%.2f\n", a + b);
 					break;
 				case '-':
-					printf ("%.2f\n", a - b);
+					printf("%.2f\n", a - b);
 					break;
 				case '*':
-					printf ("%.2f\n", a * b);
+					printf("%.2f\n", a * b);
 					break;
 				case '/':
 					if (b != 0) {
-						printf ("%.2f\n", a / b);
+						printf("%.2f\n", a / b);
 					} else {
-						printf ("Деление на ноль!\n");
+						printf("Деление на ноль!\n");
 					}
 			}
 		}
