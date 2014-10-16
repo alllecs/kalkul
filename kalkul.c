@@ -27,7 +27,7 @@ int main(void)
 			scanf("%f", &a);
 			printf ("Введите второе число = ");
 			scanf("%f", &b);
-			switch (c) {
+			switch(c) {
 				case '+':
 					printf ("%.2f\n", a + b);
 					break;
@@ -38,12 +38,11 @@ int main(void)
 					printf ("%.2f\n", a * b);
 					break;
 				case '/':
-					if (b != 0) {
+					if(b != 0) {
 						printf ("%.2f\n", a / b);
 					} else {
 						printf ("Деление на ноль!\n");
-						return 0;
-				}
+					}
 			}
 		}
 
